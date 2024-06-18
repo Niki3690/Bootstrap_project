@@ -87,6 +87,8 @@ const Cart = () => {
             )}
             {names.map((demo) => {
               let namesss = demo.price * demo.quantity;
+
+              let Mainprice = namesss.toFixed(0);
               return (
                 <>
                   <div className="col-sm-12 col-md-6 col-lg-3  col-12">
@@ -103,7 +105,7 @@ const Cart = () => {
                       />
                       <div class="card-body">
                         <h5 class="card-title">{demo.title}</h5>
-                        <h5 class="card-title">{namesss}</h5>
+                        <h5 class="card-title">{Mainprice}</h5>
                         <h5 class="card-title mt-3">{demo.quantity}</h5>
                         <div className="d-flex justify-content-center text-center">
                           <button

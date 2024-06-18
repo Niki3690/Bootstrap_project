@@ -148,7 +148,7 @@ const Data = () => {
                           }}
                         />
                         <div class="card-body">
-                          <h5 class="card-title">{demo.title}</h5>
+                          <h5 class="card-title">{demo.title.slice(0)}</h5>
                           <h5 class="card-title">{demo.price}</h5>
                         </div>
                       </div>
