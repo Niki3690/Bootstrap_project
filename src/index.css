@@ -1,0 +1,129 @@
+/* a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  font-weight: 700;
+}
+
+.nnn {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.nnn button {
+  width: 100%;
+}
+
+button,
+select {
+  background-color: #f8bfad;
+  color: black;
+  padding: 10px;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.kkk {
+  margin: 15px 0 0 0;
+  padding: 0;
+}
+
+.main1 {
+  position: relative;
+  width: 400px;
+  cursor: pointer;
+  height: 400px;
+  transition-duration: 2s;
+  overflow: hidden;
+}
+
+.main1 img:hover {
+  transform: scale(1.2);
+}
+
+.main2 {
+  position: absolute;
+  bottom: 15px;
+  right: 25px;
+}
+
+.main2 i {
+  font-size: 25px;
+  margin-left: 15px;
+  visibility: hidden;
+  color: white;
+}
+
+.main1:hover .main2 i {
+  visibility: visible;
+}
+
+.aa {
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 45px;
+  gap: 25px;
+}
+
+.bb {
+  border: 2px solid gray;
+}
+
+.bb button {
+  width: 100%;
+  padding: 9px;
+  cursor: pointer;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (max-width: 425px) {
+  .mmmm button,
+  input,
+  select {
+    margin-top: 8px;
+  }
+  .card-title {
+    font-size: 15px !important;
+  }
+}
+
+body {
+  background: linear-gradient(90deg, #c7dbb7, #db9aae);
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.form-control {
+  border: none;
+}
+
+::placeholder {
+  color: white !important;
+}
+
+.stickyy {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}

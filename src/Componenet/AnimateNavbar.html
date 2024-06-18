@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      .aa {
+        background-color: black;
+        color: white;
+        display: flex;
+        gap: 15px;
+        white-space: nowrap;
+        padding: 10px 0;
+        overflow: hidden;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .aa p {
+        font-size: 15px;
+        display: inline-block;
+        padding-right: 65px;
+        line-height: 22px; /* Adjust this value to match the height of the image for better alignment */
+      }
+
+      img {
+        vertical-align: middle;
+        margin-top: -5px;
+      }
+
+      .scrolling-text {
+        display: inline-block;
+        white-space: nowrap;
+        animation: scroll 100s linear infinite;
+      }
+
+      @keyframes scroll {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="aa">
+      <div class="scrolling-text">
+        <p>FREE CLICK & COLLECT AVAILABLE</p>
+        <p>
+          <span
+            ><img
+              src="https://www.kokoblack.com/cdn/shop/files/ClockClockwise.png?v=1676332696&width=36"
+              style="height: 22px"
+              alt="Clock Icon"
+            /> </span
+          >SAME-DAY & EXPRESS DELIVERY AVAILABLE
+        </p>
+        <p>FREE SHIPPING ON ORDERS OVER $100</p>
+        <p>HANDCRAFTED. NATURALLY</p>
+        <p>REFRIGERATED SHIPPING</p>
+      </div>
+
+      <div class="scrolling-text">
+        <p>FREE CLICK & COLLECT AVAILABLE</p>
+        <p>FREE SHIPPING ON ORDERS OVER $100</p>
+        <p>
+          <span
+            ><img
+              src="https://www.kokoblack.com/cdn/shop/files/ClockClockwise.png?v=1676332696&width=36"
+              style="height: 22px"
+              alt="Clock Icon"
+            /> </span
+          >SAME-DAY & EXPRESS DELIVERY AVAILABLE
+        </p>
+        <p>HANDCRAFTED. NATURALLY</p>
+        <p>REFRIGERATED SHIPPING</p>
+      </div>
+
+      <div class="scrolling-text">
+        <p>FREE CLICK & COLLECT AVAILABLE</p>
+        <p>FREE SHIPPING ON ORDERS OVER $100</p>
+        <p>
+          <span
+            ><img
+              src="https://www.kokoblack.com/cdn/shop/files/ClockClockwise.png?v=1676332696&width=36"
+              style="height: 22px"
+              alt="Clock Icon"
+            /> </span
+          >SAME-DAY & EXPRESS DELIVERY AVAILABLE
+        </p>
+        <p>HANDCRAFTED. NATURALLY</p>
+        <p>REFRIGERATED SHIPPING</p>
+      </div>
+    </div>
+  </body>
+</html>

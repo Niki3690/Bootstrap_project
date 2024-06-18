@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .aa {
+      background-color: lightgreen;
+      text-align: center;
+    }
+    a {
+      color: green;
+      font-size: 25px;
+      margin-left: 15px;
+      text-decoration: none;
+      display: block;
+      padding: 20px;
+      background-color: lightgreen;
+    }
+
+    ul li {
+      display: inline-block;
+      position: relative;
+    }
+
+    a:hover {
+      background-color: black;
+      color: white;
+    }
+
+    .bb {
+      position: absolute;
+      top: 68px;
+      left: 0;
+      display: none;
+    }
+
+    .aa li:hover .bb {
+      display: block;
+    }
+
+    .cc {
+      position: absolute;
+      top: 0;
+      left: 142px;
+      display: none;
+    }
+
+    .bb li:hover .cc {
+      display: block;
+    }
+  </style>
+  <body>
+    <div class="aa">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li>
+          <a href="#">About</a>
+
+
+          <div>
+          <ul class="bb">
+            <li><a href="#">22222222</a></li>
+            <li><a href="#">22222222</a></li>
+            <li>
+              <a href="#">22222222</a>
+
+              <ul class="cc">
+                <li><a href="#">11111</a></li>
+                <li><a href="#">11111</a></li>
+                <li><a href="#">11111</a></li>
+                <li><a href="#">11111</a></li>
+              </ul>
+            </li>
+            <li><a href="#">22222222</a></li>
+            <li><a href="#">22222222</a></li>
+          </ul>
+        </div>
+
+
+        <div></div>
+
+        <div>
+        </li>
+        <li><a href="#">Cart</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Services</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
